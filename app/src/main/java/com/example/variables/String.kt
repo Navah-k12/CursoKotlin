@@ -16,7 +16,7 @@ fun main(){
     // MIS VARIABLES
     val MiString: String = "Kotlin"
     val Vacio: String = " "
-    val name: String = "Bryan-Ivan-Navarrete-Canche"
+    val name: String = "Ingeniería-en-Desarrollo-de-Software"
 
     // MÉtodos
     println("Tranformación de Textos")
@@ -27,11 +27,8 @@ fun main(){
     println("Saludo: ${saludo.replace("M","m")}")
     println("Saludo: ${saludo.trim()}")
 
-    // Métodos Investigados
-
 
     println()
-
 
     println("Validación y busquedas")
     println("Aprendiendo: ${MiString.contains("Kot")}")
@@ -42,7 +39,6 @@ fun main(){
     println("Vacio: ${Vacio.isNullOrBlank()}") // Busca valores nulos o si hay valores visibles
     println("Vacio ${Vacio.isBlank()}")        // Verifica valores visibles
 
-    // Métodos Investigados
 
     println()
 
@@ -53,7 +49,6 @@ fun main(){
     println("Tomar las Primeras letras: ${name.take(n=3)}")
     println("Eliminar las Primeras Letras: ${name.drop(3)}")
 
-    //Métodos Investigados
 
 
 }

@@ -27,7 +27,7 @@ fun main(){
     // Rellena el inicio del texto con el carácter asignado si la longitud es mayor que la variable
     println("Nuevo Método: ${pruebaDos.padStart(20, '*')}")
     // Lo mismo que el anterior pero al final
-    println("Nuevo Método: ${pruebaDos.padEnd(20, '-')}")
+    println("Nuevo Método: ${pruebaDos.padEnd(  20, '-')}")
     // Reemplaza lo que esté antes de ese carácter
     println("Nuevo Método: ${name.replaceBefore('-',"Lic.")}")
     // Lo mismo pero al contrario

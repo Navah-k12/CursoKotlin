@@ -22,4 +22,8 @@ fun main() {
     VariableDOs = "MK" //Reasignacion de la variable
     println(VariableDOs)
 
+    var msj ="""""".trimIndent()
+
+    println(msj)
+
 }

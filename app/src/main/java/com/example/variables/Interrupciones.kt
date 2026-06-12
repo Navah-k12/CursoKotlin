@@ -13,7 +13,6 @@ fun main(){
     println("Interrupciones break")
 
     for( i in 1..5){
-        println(i)
         if(i ==3){
             break
         }
@@ -25,7 +24,6 @@ fun main(){
     println("Interrupciones continue")
 
     for( i in 1..5){
-        println(i)
         if(i ==3){
             continue
         }
@@ -36,7 +34,6 @@ fun main(){
     println("Interrupciones return")
 
     for( i in 1..5) {
-        println(i)
         if (i == 3) {
             return
         }

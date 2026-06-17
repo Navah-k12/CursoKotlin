@@ -51,7 +51,7 @@ fun main(){
     // Permite dejar un campo vacío
     println("¿Número interior?: ${vacio.matches(Regex("[a-zA-Z-9]*"))}")
     // Compara si coincide el texto ignorando si son mayúsculas o minúsculas
-    println("¿Es el mismo correo?: ${email.equals("$email", ignoreCase = true)}")
+    println("¿Es el mismo correo?: ${email.equals(email, ignoreCase = true)}")
     println("¿Es el mismo correo?: ${kt.equals("Java@email.com",ignoreCase = true)}")
 
     // Revisa por completo y da true si todas las letras cumplen con la condición
